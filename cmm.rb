@@ -8,11 +8,7 @@ class Cmm < Formula
     # depends_on "cmake" => :build
     def install
       system "make"
-      bin.install "cmm-lang"
-    end
-  
-    test do
-      system "false"
+      bin.install "cmm"
     end
   end
   
