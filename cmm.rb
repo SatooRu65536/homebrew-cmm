@@ -1,4 +1,7 @@
-class Cmm < Formula
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
+# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+class Brewtaphello < Formula
   desc ""
   homepage ""
   url "https://github.com/SatooRu65536/cmm-lang/archive/refs/tags/1.0.1.tar.gz"
@@ -8,7 +11,7 @@ class Cmm < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "make cmm-lang"
+    system "make"
     bin.install "cmm"
   end
 end
