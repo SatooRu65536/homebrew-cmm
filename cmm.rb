@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class cmm < Formula
+class Cmm < Formula
   desc ""
   homepage ""
   url "https://github.com/SatooRu65536/cmm-lang/archive/refs/tags/1.0.1.tar.gz"
