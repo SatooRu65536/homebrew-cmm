@@ -4,8 +4,8 @@
 class Cmm < Formula
   desc ""
   homepage ""
-  url "https://github.com/SatooRu65536/cmm-compiler/archive/refs/tags/1.1.3.tar.gz"
-  sha256 "86217661cd9b657fe299b3ded43c15c020a58d32182ba983ada0aae2fe4f5454"
+  url "https://github.com/SatooRu65536/cmm-language/archive/refs/tags/1.1.3.tar.gz"
+  sha256 "a794a35188bcc91aab86acedf45e7b8f1f9dd2381c56c6fe2c3137bf460579b8"
   license ""
 
   # depends_on "cmake" => :build
